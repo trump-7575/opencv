@@ -1,0 +1,13 @@
+Install the required developer tools and packages:
+Both build-essential  and pkg-config  are likely already installed, but just in case they are not, be sure to include them in your apt-get  command.
+Install the necessary image I/O packages. These packages allow you to load various image file formats such as JPEG, PNG, TIFF, etc.
+Install the GTK development library. This library is used to build Graphical User Interfaces (GUIs) and is required for the highgui  library of OpenCV which allows you to view images on your screen:
+Install the necessary video I/O packages. These packages are used to load video files using OpenCV:
+Install libraries that are used to optimize various operations within OpenCV:
+Install pip
+Install virtualenv  and virtualenvwrapper
+Now we can install the Python 2.7 development tools:
+Download OpenCV and unpack it:
+If you’ve gotten this far in the guide, OpenCV should now be installed in 
+Finally, we can give our OpenCV and Python installation a test drive:
+Congrats! You have a brand new, fresh install of OpenCV on your Raspberry Pi — and I’m sure you’re just itching to leverage your Raspberry Pi to build some awesome computer vision apps.
